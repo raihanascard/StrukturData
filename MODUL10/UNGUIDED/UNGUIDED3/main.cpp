@@ -29,13 +29,14 @@ int main() {
     int totalInfo = hitungTotalInfo(root);
     cout << "total : " << totalInfo << endl;
 
-    // cout << "pre-order : ";
-    // PreOrder(root);
-    // cout << endl;
+    cout << "pre-order : ";
+    PreOrder(root);
+    cout << endl;
     
-    // cout << "post-order : ";
-    // PostOrder(root);
-    // cout << endl;
+    cout << "post-order : ";
+    PostOrder(root);
+    cout << endl;
 
     return 0;
 }
+
